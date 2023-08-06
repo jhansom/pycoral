@@ -69,9 +69,9 @@ setup(
         ]
     },
     install_requires=[
-        'numpy>=1.16.0',
-        'Pillow>=4.0.0',
-        'tflite-runtime==2.5.0.post1',
+        'numpy>=1.21.2',
+        'Pillow>=10.0.0',
+        'tflite-runtime==2.5.3.post1',
     ],
     **({
         'has_ext_modules': lambda: True
